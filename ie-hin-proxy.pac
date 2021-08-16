@@ -6,6 +6,7 @@ function FindProxyForURL(url, host) {
         shExpMatch(host, "idp.fmh.ch") ||
         shExpMatch(host, "idp-test.fmh.ch") ||
         shExpMatch(host, "service.zurrose.ch") ||
+        shExpMatch(host, "*.zur-rose.ch") ||
         shExpMatch(host, "testservice.zurrose.ch") ||
         shExpMatch(host, "*.spitalstsag.ch") ||
         shExpMatch(host, "downloads-stage.zurrose.ch") ||
