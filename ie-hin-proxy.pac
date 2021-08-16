@@ -8,6 +8,7 @@ function FindProxyForURL(url, host) {
         shExpMatch(host, "service.zurrose.ch") ||
         shExpMatch(host, "*.zur-rose.ch") ||
         shExpMatch(host, "testservice.zurrose.ch") ||
+        shExpMatch(host, "estudio.zur-rose.ch") ||
         shExpMatch(host, "*.spitalstsag.ch") ||
         shExpMatch(host, "downloads-stage.zurrose.ch") ||
         shExpMatch(host, "downloads.zurrose.ch")) {
